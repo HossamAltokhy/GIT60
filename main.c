@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 
+// Queue node structure.
 struct node
 {
 
@@ -27,12 +28,15 @@ int main()
     enqueue(9);
     enqueue(11);
     enqueue(30);
+    enqueue(79);
 
 
     printQ();
 
     dequeue();
 
+    printf("\n");
+    printQ();
     printf("\n");
     printQ();
 
