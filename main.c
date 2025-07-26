@@ -18,7 +18,7 @@ int dequeue();
 
 
 void printQ();
-
+int x =100;
 int main()
 {
     enqueue(5);
@@ -27,6 +27,10 @@ int main()
     enqueue(9);
     enqueue(11);
     enqueue(30);
+    if(x =100){
+
+        enqueue(100);
+    }
 
 
     printQ();
